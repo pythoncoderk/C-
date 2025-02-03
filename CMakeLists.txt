@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.30)
+project(2025)
+
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /execution-charset:SHIFT_JIS /source-charset:UTF-8")
+
+add_executable(2025 main.cpp)
+
+
